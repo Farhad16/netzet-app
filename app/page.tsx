@@ -1,3 +1,5 @@
-export default function Home() {
-  return <main className="flex ">next app</main>;
+import { Home } from "./home/page";
+
+export default function page() {
+  return <Home />;
 }
