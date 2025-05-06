@@ -7,7 +7,7 @@ export const Header: React.FC = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <header className="relative">
+    <header className="relative bg-[#010101] text-white">
       <div className="flex items-start justify-between h-[74px] mt-[35px]">
         <div className="w-6 md:hidden" />
         <div className="relative mx-auto md:ml-[211px] w-[105px] h-[45px] md:w-[174px] sm:h-[74px]">

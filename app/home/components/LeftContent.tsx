@@ -9,7 +9,7 @@ export const LeftContent: React.FC = () => {
   ];
 
   return (
-    <div className="mb-10 flex flex-col md:ml-[215px] sm:mt-[57px] sm:gap-4 p-5 sm:p-0 pt-0 z-10 relative sm:w-[516px]">
+    <div className="mb-10 flex flex-col md:ml-[215px] sm:mt-[57px] sm:gap-4 p-5 sm:p-0 pt-0 z-10 relative sm:w-[516px] text-white">
       <p className="text-center sm:text-left font-extrabold sm:font-bold text-[25px] sm:text-[35px] leading-[100%] sm:leading-[35px] tracking-normal">
         Want to Turn Social Media Into a Profitable Career?
       </p>
@@ -37,7 +37,7 @@ export const LeftContent: React.FC = () => {
           </p>
         </div>
 
-        <div className="flex flex-col sm:mt-[30px] mt-[22px] sm:mb-0 mb-[32px] text-center sm:text-left gap-3">
+        <div className="flex flex-col sm:mt-[30px] mt-[22px] sm:mb-0 mb-[32px] text-center sm:text-left gap-3 text-[#ABABAB]">
           <p className="font-normal text-[12px] leading-[16px] font-figtree">
             By clicking "Get Started", you agree with Terms and Conditions,
             Privacy Policy, Subscription Terms
