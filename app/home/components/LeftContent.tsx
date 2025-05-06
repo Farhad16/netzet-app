@@ -9,7 +9,7 @@ export const LeftContent: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col md:ml-[215px] sm:mt-[57px] sm:gap-4 p-5 sm:p-0 pt-0 z-10 relative sm:w-[516px]">
+    <div className="mb-10 flex flex-col md:ml-[215px] sm:mt-[57px] sm:gap-4 p-5 sm:p-0 pt-0 z-10 relative sm:w-[516px]">
       <p className="text-center sm:text-left font-extrabold sm:font-bold text-[25px] sm:text-[35px] leading-[100%] sm:leading-[35px] tracking-normal">
         Want to Turn Social Media Into a Profitable Career?
       </p>
@@ -29,7 +29,7 @@ export const LeftContent: React.FC = () => {
 
       <div className="flex flex-col-reverse sm:flex-col sm:items-start items-center">
         <div className="text-center">
-          <button className="mt-[14px] flex items-center justify-center w-[313px] rounded-[10px] py-2 px-10 gap-[10px] bg-[#FC004E] shadow-[2px_2px_10px_0px_#00E7F9] text-white font-semibold">
+          <button className="cursor-pointer mt-[14px] flex items-center justify-center w-[313px] rounded-[10px] py-2 px-10 gap-[10px] bg-[#FC004E] shadow-[2px_2px_10px_0px_#00E7F9] text-white font-semibold">
             GET STARTED <ChevronRight className="w-4 h-4" />
           </button>
           <p className="mt-2.5 font-normal text-[12px] leading-[16px] text-center">

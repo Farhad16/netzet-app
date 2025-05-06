@@ -23,13 +23,13 @@ export const Header: React.FC = () => {
         {/* Desktop nav links */}
         <nav className="hidden md:flex space-x-6 md:mr-[100px] lg:mr-[211px]">
           <a
-            href="/"
+            href="#"
             className="font-semibold text-[18px] leading-[100%] tracking-[0%] text-center flex items-center justify-center h-full"
           >
             About us
           </a>
           <a
-            href="/about"
+            href="#"
             className="font-semibold text-[18px] leading-[100%] tracking-[0%] text-center flex items-center justify-center h-full"
           >
             Contact
