@@ -63,11 +63,11 @@ export const Header: React.FC = () => {
           </button>
         </div>
         <nav className="flex flex-col p-4 space-y-4">
-          <a href="/" onClick={() => setSidebarOpen(false)}>
-            Home
+          <a href="#" onClick={() => setSidebarOpen(false)}>
+            About us
           </a>
-          <a href="/about" onClick={() => setSidebarOpen(false)}>
-            About
+          <a href="#" onClick={() => setSidebarOpen(false)}>
+            Contact
           </a>
         </nav>
       </div>

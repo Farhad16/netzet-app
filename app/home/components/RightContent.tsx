@@ -8,7 +8,7 @@ export const RightContent: React.FC = () => {
       priority
       width={100}
       height={100}
-      className="w-[300px] sm:w-[390px] md:w-[500px] lg:w-[666px] md:h-[679px] sm:mr-[101px] z-0 relative  mx-auto"
+      className="w-[300px] sm:w-[390px] md:w-[500px] lg:w-[666px] md:h-[679px] sm:mr-[101px] z-5 relative  mx-auto"
     />
   );
 };
