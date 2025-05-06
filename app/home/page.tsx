@@ -4,7 +4,7 @@ import { RightContent } from "./components/RightContent";
 
 export const Home: React.FC = () => {
   return (
-    <div className="flex flex-col-reverse sm:flex-row items-start w-full justify-center">
+    <div className="flex flex-col-reverse sm:flex-row items-start w-full justify-center relative overflow-hidden">
       <LeftContent />
       <RightContent />
     </div>
